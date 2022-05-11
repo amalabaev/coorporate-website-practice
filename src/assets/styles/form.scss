@@ -1,0 +1,28 @@
+.form {
+  &__cap {
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 35px;
+  }
+  &__form {
+    padding: 90px 90px;
+    border-radius: 15px;
+    background-color: $bg-secondary;
+  }
+  &__item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  &__radio {
+      margin-right: 36px;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+  }
+  &__message {
+    text-align: center;
+    margin-top: 20px; 
+  }
+}

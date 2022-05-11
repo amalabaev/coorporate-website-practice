@@ -1,0 +1,63 @@
+
+.button {
+  min-width: 200px;
+  min-height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 50px;
+  color: $color-light;
+  border: 1px solid $accent;
+  background-color: $accent;
+  cursor: pointer;
+  transition: transform 300ms, box-shadow 300ms;
+  &:hover {
+    transform: translateY(3px);
+    box-shadow: 0 0 6px $accent;
+  }
+  &--transparent {
+    border: 1px solid $color-light;
+    background: transparent;
+    &:hover {
+      box-shadow: none;
+    }
+  }
+  &--grey,
+  &:disabled {
+    pointer-events: none;
+    border-color: $disabled-button;
+    background-color: $disabled-button;
+  }
+  @media (max-width: 48em) {
+    min-width: 200px;
+    min-height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: $color-light;
+    border: 1px solid $accent;
+    background-color: $accent;
+    cursor: pointer;
+    transition: transform 300ms, box-shadow 300ms;
+    &:hover {
+      transform: translateY(3px);
+      box-shadow: 0 0 6px $accent;
+    }
+    &--transparent {
+      border: 1px solid $color-light;
+      background: transparent;
+      &:hover {
+        box-shadow: none;
+      }
+    }
+    &--grey,
+    &:disabled {
+      pointer-events: none;
+      border-color: $disabled-button;
+      background-color: $disabled-button;
+    }
+  }
+}

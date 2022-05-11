@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="16" viewBox="0 0 34 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="34" height="16" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_7" data-name="Repeat Grid 7" clip-path="url(#clip-path)">
+    <g transform="translate(-314 -7.5)">
+      <line id="Line_26" data-name="Line 26" x2="31" transform="translate(315.5 8.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g transform="translate(-314 -0.5)">
+      <line id="Line_26-2" data-name="Line 26" x2="31" transform="translate(315.5 8.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g transform="translate(-314 6.5)">
+      <line id="Line_26-3" data-name="Line 26" x2="31" transform="translate(315.5 8.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

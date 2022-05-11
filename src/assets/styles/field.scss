@@ -1,0 +1,23 @@
+.field {
+  font-size: 1.4rem;
+  height: 40px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: $bg-primary;
+  border: 1px solid $border-color;
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 600px;
+  &.field--error {
+    border-color: $error;
+  }
+  &--textarea {
+    height: 255px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+}
+
+.text-error {
+  color: $error;
+}
